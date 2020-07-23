@@ -1,6 +1,7 @@
 {
   "name": "covid-19",
   "version": "0.1.0",
+  "build": "node --max_old_space_size=8192 node_modules/.bin/react-scripts start --progress --env.prod",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
