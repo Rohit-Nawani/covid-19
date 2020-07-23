@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.card-img {
+  height: 15vw;
+  width: 100%;
+}
+
+.country-text-center {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+  background: #231f20;
+  color: white;
+}
