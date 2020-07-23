@@ -36,16 +36,25 @@ export default class Navigation extends Component {
               paddingLeft: "50px",
             }}
           >
-            <NavLink className="p-2 bg-dark text-white" to="/">
+            {/* <NavLink className="p-2 bg-dark text-white" to="/">
               Home
-            </NavLink>
+            </NavLink> */}
             <NavLink className="p-2 bg-dark text-white" to="/map">
               Map
             </NavLink>
             <NavLink className="p-2 bg-dark text-white" to="/graph">
               Chart
             </NavLink>
-            <NavDropdown
+            <NavLink className="p-2 bg-dark text-white" to="/symptom">
+              Symptoms
+            </NavLink>
+            <NavLink className="p-2 bg-dark text-white" to="/prevention">
+              Prevention
+            </NavLink>
+            <NavLink className="p-2 bg-dark text-white" to="/about">
+              About
+            </NavLink>
+            {/* <NavDropdown
               className="p-2 bg-dark text-white"
               title="About"
               id="collasible-nav-dropdown"
@@ -54,7 +63,7 @@ export default class Navigation extends Component {
               <NavDropdown.Item href="Symptom">Symptoms</NavDropdown.Item>
               <NavDropdown.Item href="Prevention">Prevention</NavDropdown.Item>
               <NavDropdown.Item href="About">About</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -16,8 +16,6 @@ mapboxgl.accessToken =
 
 export default function Map() {
   const [latest, setLatest] = useState([]);
-  const [results, setResults] = useState([]);
-  const [searchCountries, setSearchCountries] = useState("");
 
   const mapboxElRef = useRef(null); // DOM element to render map
 
