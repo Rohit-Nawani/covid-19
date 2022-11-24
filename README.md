@@ -18,12 +18,13 @@ Covid-19 Live Updates is the real-time web application which gives real-time upd
 ### 🛠️ Technologies used
 Stack that is used to build this up :
 
-React
-React Flexbox Grid
-react-infinite-scroller
-react-spinner
-mapboxgl
-Netlify
+✔ React <br />
+✔ React Flexbox Grid <br />
+✔ react-infinite-scroller <br />
+✔ react-spinner <br />
+✔ mapboxgl <br />
+✔ Netlify <br />
+
 ### 💾 Covid19Stats-API Backend
 An API wrapper around [API for Live Updates](https://covid19.mathdro.id/api)
 
